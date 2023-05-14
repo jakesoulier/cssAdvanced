@@ -1,0 +1,9 @@
+font type: Uncial Fonts, Times New Roman, Garamond
+
+color scheme: 
+  background: #F5F5F5
+  primary text: #333333 
+  headers: #000080
+  subheaders: #666666
+  highlights: #CC5500
+  graphs: #007BFF, #28A745, #FFC107, #DC3545
