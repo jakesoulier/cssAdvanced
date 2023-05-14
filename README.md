@@ -15,13 +15,28 @@ Wireframe 1:
 Wireframe 2:
 ![wireframe2](https://github.com/jakesoulier/cssAdvanced/assets/97404870/4800b25d-0c14-4b0f-8a0e-d4bf03728e5f)
 
-### Wireframe 2 details: 
-font type: Uncial Fonts, Times New Roman, Garamond
+# Design Specifications
 
-color scheme: 
-  background: #F5F5F5
-  primary text: #333333 
-  headers: #000080
-  subheaders: #666666
-  highlights: #CC5500
-  graphs: #007BFF, #28A745, #FFC107, #DC3545
+## Font Type
+We will be using the following fonts in our design:
+
+- **Uncial Fonts**
+- **Times New Roman**
+- **Garamond**
+
+## Color Scheme
+Our color scheme will consist of:
+
+- **Background:** ![#F5F5F5](https://via.placeholder.com/15/F5F5F5/000000?text=+) `#F5F5F5`
+- **Primary Text:** ![#333333](https://via.placeholder.com/15/333333/000000?text=+) `#333333`
+- **Headers:** ![#000080](https://via.placeholder.com/15/000080/000000?text=+) `#000080`
+- **Subheaders:** ![#666666](https://via.placeholder.com/15/666666/000000?text=+) `#666666`
+- **Highlights:** ![#CC5500](https://via.placeholder.com/15/CC5500/000000?text=+) `#CC5500`
+
+For diagrams and graphs, we'll use a variety of colors to differentiate between data points:
+
+- ![#007BFF](https://via.placeholder.com/15/007BFF/000000?text=+) `#007BFF`
+- ![#28A745](https://via.placeholder.com/15/28A745/000000?text=+) `#28A745`
+- ![#FFC107](https://via.placeholder.com/15/FFC107/000000?text=+) `#FFC107`
+- ![#DC3545](https://via.placeholder.com/15/DC3545/000000?text=+) `#DC3545`
+
