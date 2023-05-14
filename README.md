@@ -14,3 +14,14 @@ Wireframe 1:
 
 Wireframe 2:
 ![wireframe2](https://github.com/jakesoulier/cssAdvanced/assets/97404870/4800b25d-0c14-4b0f-8a0e-d4bf03728e5f)
+
+### Wireframe 2 details: 
+font type: Uncial Fonts, Times New Roman, Garamond
+
+color scheme: 
+  background: #F5F5F5
+  primary text: #333333 
+  headers: #000080
+  subheaders: #666666
+  highlights: #CC5500
+  graphs: #007BFF, #28A745, #FFC107, #DC3545
