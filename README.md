@@ -1,21 +1,25 @@
 # Advanced CSS - WDD 331R
 
-## Team 7 members
-- Colton Carter
-- Jake Soulier
+<div align="right">
+    <b>Team 7 Members</b>
+    <br>
+    Colton Carter
+    <br>
+    Jake Soulier
+</div>
 
 ## Theme
 The theme we have chosen is to model our Zen Garden after the design of past history books. We found history books have a unique design and are also centered around being factual and informational. We want to take their old designs and use that as an outline. This means styling stuff to look older, and likely we will have to chose a certain history book time period that we can truly focus on. For example, we may chose something like an 80's history book that is more retro while still focused on the information on the page.
 
+## Wireframes
 
-Wireframe 1:
-
+### Wireframe 1
 ![alt text](https://github.com/jakesoulier/cssAdvanced/assets/97404870/64be1fd0-367d-49de-bfb5-4889e3ddf33f)
 
-Wireframe 2:
+### Wireframe 2
 ![wireframe2](https://github.com/jakesoulier/cssAdvanced/assets/97404870/4800b25d-0c14-4b0f-8a0e-d4bf03728e5f)
 
-# Design Specifications Wireframe 2 Example
+# Design Specifications for Wireframe 2
 
 ## Font Type
 We will be using the following fonts in our design:
@@ -39,4 +43,3 @@ For diagrams and graphs, we'll use a variety of colors to differentiate between 
 - ![#28A745](https://via.placeholder.com/15/28A745/000000?text=+) `#28A745`
 - ![#FFC107](https://via.placeholder.com/15/FFC107/000000?text=+) `#FFC107`
 - ![#DC3545](https://via.placeholder.com/15/DC3545/000000?text=+) `#DC3545`
-
