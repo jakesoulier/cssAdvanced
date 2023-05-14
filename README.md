@@ -4,8 +4,8 @@
 - Colton Carter
 - Jake Soulier
 
-##
-The theme we have chosen is to model our Zen Garden after the design of past history books. We found history books have a unique design and are also centered around being factual and informational.
+## Theme
+The theme we have chosen is to model our Zen Garden after the design of past history books. We found history books have a unique design and are also centered around being factual and informational. We want to take their old designs and use that as an outline. This means styling stuff to look older, and likely we will have to chose a certain history book time period that we can truly focus on. For example, we may chose something like an 80's history book that is more retro while still focused on the information on the page.
 
 
 Wireframe 1:
