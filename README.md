@@ -1,10 +1,11 @@
-# cssAdvanced
+# Advanced CSS - WDD 331R
 
-## Team members
+## Team 7 members
 - Colton Carter
 - Jake Soulier
 
-History textbook
+##
+The theme we have chosen is to model our Zen Garden after the design of past history books. We found history books have a unique design and are also centered around being factual and informational.
 
 
 Wireframe 1:
