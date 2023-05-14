@@ -14,7 +14,7 @@ The theme we have chosen is to model our Zen Garden after the design of past his
 ## Wireframes
 
 ### Wireframe 1
-![alt text](https://github.com/jakesoulier/cssAdvanced/assets/97404870/64be1fd0-367d-49de-bfb5-4889e3ddf33f)
+![wireframe1](https://github.com/jakesoulier/cssAdvanced/assets/97404870/64be1fd0-367d-49de-bfb5-4889e3ddf33f)
 
 ### Wireframe 2
 ![wireframe2](https://github.com/jakesoulier/cssAdvanced/assets/97404870/4800b25d-0c14-4b0f-8a0e-d4bf03728e5f)
@@ -22,14 +22,14 @@ The theme we have chosen is to model our Zen Garden after the design of past his
 # Design Specifications for Wireframe 2
 
 ## Font Type
-We will be using the following fonts in our design:
+font ideas:
 
 - **Uncial Fonts**
 - **Times New Roman**
 - **Garamond**
 
 ## Color Scheme
-Our color scheme will consist of:
+color scheme ideas:
 
 - **Background:** ![#F5F5F5](https://via.placeholder.com/15/F5F5F5/000000?text=+) `#F5F5F5`
 - **Primary Text:** ![#333333](https://via.placeholder.com/15/333333/000000?text=+) `#333333`
