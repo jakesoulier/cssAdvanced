@@ -15,7 +15,7 @@ Wireframe 1:
 Wireframe 2:
 ![wireframe2](https://github.com/jakesoulier/cssAdvanced/assets/97404870/4800b25d-0c14-4b0f-8a0e-d4bf03728e5f)
 
-# Design Specifications
+# Design Specifications Wireframe 2 Example
 
 ## Font Type
 We will be using the following fonts in our design:
