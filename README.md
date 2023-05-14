@@ -1,6 +1,8 @@
 # cssAdvanced
 
-## Theme
+## Team members
+- Colton Carter
+- Jake Soulier
 
 History textbook
 
