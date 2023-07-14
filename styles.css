@@ -123,10 +123,13 @@ ul {
     color: bisque;
 }
 
-
 a {
-    background: linear-gradient(to right, aliceblue, yellow 25%, aliceblue 90%);
-    color: black;
+    background-image: url("highv2.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* background: linear-gradient(to right, aliceblue, yellow 25%, aliceblue 90%); */
+    color: gray;
     text-decoration: none;
 }
 .wrapper a {
@@ -135,10 +138,12 @@ a {
 a:hover{
     background: yellow;
     border-radius: 5px 0 5px 0;
+    color: black;
 }
 @media screen and (min-width: 750px) {
     /* body{
         background-color: aqua;
+
     } */
     .intro {
         display: grid;
