@@ -1,3 +1,9 @@
+:root {
+    --header-color: rgb(167, 60, 120, 0.5);
+    --main-title-color:rgb(113, 39, 81) ;
+}
+
+
 * {
     margin: 0;
 }
@@ -33,7 +39,7 @@ header {
 h1 {
     /* font-size: 50px; */
     padding: 1rem;
-    background-color: rgb(167, 60, 120, 0.5);
+    background-color: var(--header-color);
     position: relative;
     /* padding-top: 150px; */
 }
@@ -79,12 +85,27 @@ h2::after {
     animation: spin_right 2s infinite;
 }
 .summary {
-    background-color: aliceblue;
+    background-color: #ffc;
     margin: 1rem;
     padding: 1rem;
-    border-style: dotted;
-    border-color: #EE4B2B;
+    text-decoration:none;
+    color:#000;
+    display:block;
+    box-shadow: 9px 9px 11px rgba(33,33,33,.7);
+    transform: rotate(-6deg);
+    max-width: 400px;
+     font-family: 'pacifico', cursive;
+     padding-bottom: 40px;
     /* border-radius: 20px; */
+}
+
+
+
+.summary >p{
+    transform: rotate(6deg); 
+    padding-top: 20px;
+
+    
 }
 
 .preamble, .main {
@@ -100,38 +121,47 @@ footer {
 h3 {
     font-size: 25px;
     /* font-weight: bold; */
-    color: rgb(113, 39, 81);
+    color: var(--main-title-color);
     /* margin: 15px 0; */
-    border-bottom: 2px solid rgb(113, 39, 81);
+    border-bottom: 2px solid var(--main-title-color);
 }
 p {
     margin-left: 10px;
 }
-li::marker {
-    color: rgb(113, 39, 81);
-}
-ul {
-    list-style-type: square;
-}
-.wrapper {
-    background-color: bisque;
-    margin: 1rem;
-    /* padding: 0.5rem; */
-}
-.wrapper h3 {
-    background-color: rgb(113, 39, 81);
-    color: bisque;
-}
 
-
+/* Top Sticky note Highlighter*/
+.summary * a{
+    background: linear-gradient(to right, #ffc, yellow 25%, #ffc 90%);
+    
+   
+}
 a {
     background: linear-gradient(to right, aliceblue, yellow 25%, aliceblue 90%);
     color: black;
     text-decoration: none;
 }
-.wrapper a {
-    background: linear-gradient(to right, bisque, yellow 25%, bisque 90%);
+
+
+
+
+
+
+/*Bootom Sticky note Highlighter*/
+.design-selection * a{
+    background: linear-gradient(to right,  rgb(249, 193, 202), yellow 25%,  rgb(249, 193, 202) 90%);
 }
+
+ .design-archives * a{
+    background: linear-gradient(to right, #ffc, yellow 25%, #ffc 90%);
+}
+
+ .zen-resources * a{
+    background: linear-gradient(to right, #5fbad8, yellow 25%, #5fbad8 90%);
+}
+
+
+
+
 a:hover{
     background: yellow;
     border-radius: 5px 0 5px 0;
@@ -162,15 +192,75 @@ a:hover{
         margin: 1rem;
     }
     footer { grid-area: 3 / 1 / 4 / 3; }
+    
+
+    li::marker {
+        color: var(--main-title-color);
+    }
+    ul {
+        list-style-type: square;
+    }
+
+    /* .wrapper {
+        background-color: bisque;
+        margin: 1rem;
+        / padding: 0.5rem; /
+    } */
+
+    .wrapper h3 { 
+        text-align: center;
+        /* 
+        background-color: var(--main-title-color);
+        color: bisque; */
+    } 
+    
     .wrapper {
         display: flex;
+       
         justify-content: space-between;
         background-color: transparent;
+        margin: 1rem;
+        padding-top: 0%;
     }
     .wrapper div {
         /* padding: 1rem; */
-        background-color: bisque;
+        /* background-color: bisque; */
+    
+    margin: 1rem;
+    padding: 1rem;
+    text-decoration:none;
+    color:#000;
+    display:block;
+    box-shadow: 9px 9px 11px rgba(33,33,33,.7);
+    
+    max-width: 400px;
+    font-family: 'pacifico', cursive;
+    padding-bottom: 40px;
+    text-size-adjust: auto;
     }
+
+.design-selection {
+    background-color:   rgb(249, 193, 202);
+    transform: rotate(6deg);
+    height: 400px;
+    width: 400px;
+
+}
+
+.design-archives{
+    background-color: #ffc;
+    transform: rotate(-6deg);
+    height: 400px;
+    width: 400px;
+}
+
+.zen-resources{
+    background-color: #5fbad8;
+    transform: rotate(8deg);
+    height: 400px;
+    width: 400px;
+}
+
     .wrapper ul {
         margin: 1rem;
         padding-left: 0;
@@ -182,11 +272,8 @@ a:hover{
     .wrapper h3 {
         padding: 0.5rem;
     }
-
-/* .select {
-    background-color: rgb(113, 39, 81);
-    color: white;
-} */
+     
+ 
 
 
 
@@ -197,3 +284,18 @@ a:hover{
     padding: 1rem;
     width: 100%;
 } */
+
+ @media screen and (max-width: 720px) {
+    .wrapper{
+          display:contents;
+      }
+      .preamble{
+       padding: auto;
+      }
+      #zen-supporting{
+        display: block;
+        background-color: aliceblue;
+      }
+    }
+
+      
