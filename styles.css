@@ -95,19 +95,18 @@ h2::after {
     box-shadow: 9px 9px 11px rgba(33,33,33,.7);
     transform: rotate(-6deg);
     max-width: 400px;
-        font-family: 'pacifico', cursive;
-        padding-bottom: 40px;
+    font-family: 'pacifico', cursive;
+        /* padding-bottom: 40px; */
+        /* padding-top: 20px; */
     /* border-radius: 20px; */
 }
 
 
-
+/* 
 .summary >p{
     transform: rotate(6deg); 
     padding-top: 20px;
-
-    
-}
+} */
 
 .preamble, .main {
     background-color: aliceblue;
@@ -278,9 +277,9 @@ ul {
     padding: 0.5rem;
 }
 @media screen and (min-width: 750px) {
-    body{
+    /* body{
         background-color: red;
-    }
+    } */
     .intro {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -329,9 +328,9 @@ ul {
     }
 
     @media screen and (min-width: 1350px) {
-        body {
+        /* body {
             background-color: aqua;
-        }
+        } */
         
         
         .intro {
