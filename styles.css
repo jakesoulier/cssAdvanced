@@ -64,7 +64,7 @@ h1::after {
     width: 40px;
     height: 40px;
     background: rgb(167, 60, 120);
-    clip-path: circle(100% at 0 0);
+/*     clip-path: circle(100% at 0 0); */
     animation: spin_left 2s infinite;
 }
 h2 {
@@ -81,7 +81,7 @@ h2::after {
     width: 40px;
     height: 40px;
     background: rgb(57, 154, 131);
-    clip-path: circle(100% at 0 0);
+/*     clip-path: circle(100% at 0 0); */
     animation: spin_right 2s infinite;
 }
 .summary {
@@ -294,9 +294,9 @@ a:hover{
     .wrapper{
           display:contents;
       }
-      .preamble{
+/*       .preamble{
        padding: auto;
-      }
+      } */
       #zen-supporting{
         display: block;
         background-color: aliceblue;
@@ -307,9 +307,9 @@ a:hover{
         .wrapper{
             display:contents;
         }
-        .preamble{
+/*         .preamble{
             padding: auto;
-        }
+        } */
         #zen-supporting{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
